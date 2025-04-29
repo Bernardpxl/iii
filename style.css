@@ -1,0 +1,54 @@
+body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    table {
+        width: 100%;
+        height: 100vh;
+        border-collapse: collapse;
+        table-layout: fixed;
+    }
+    
+    td {
+        border: 1px solid #ccc;
+        vertical-align: top;
+        padding: 10px;
+    }
+    
+    .topo {
+        background-color: #7571EB;
+        color: white;
+        text-align: center;
+        position: relative;
+    }
+    
+    .logo {
+        position: absolute;
+        right: 30px;
+        top: 10px;
+        width: 60px;
+    }
+    
+    .linha1 td {
+        background-color: #7571EB;
+        color: white;
+      }
+      .linha2 td {
+        background-color: #71EBA3;
+      }
+      .linha3 td {
+        background-color: #EA7970;
+      }
+      .linha4 td {
+        background-color: #EBD671;
+      }
+      .rodape {
+        background-color: #967C7A;
+        text-align: right;
+    }
+    
+    .rodape img {
+        width: 30px;
+        margin-left: 10px;
+    }
